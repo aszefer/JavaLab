@@ -1,0 +1,44 @@
+Java 2
+
+1. Radnom generation 
+
+ Add to class Person:
+
+ - three static methods that generate random values for its attributes
+
+ - use these methods in default constructor
+
+ 
+
+2. People
+
+ Create a class that allows to store objects from class Persons is List structure
+
+ Add a constructor that allows to initate n random elements of the List
+
+ Add method that prints the structure content
+
+ Add methods that sorts the structure using different attributes as keys
+
+ 
+
+ 
+
+3. Extension
+
+Add an attribute salary to Person
+
+Add a method that calcualtes the avareage age of people with salary larger then a given value
+
+ 
+
+4. FileDataGenerator*
+
+Write a class that allows:
+
+to generate a set of files (number given in constructor) in a given directory (path given in constructor)
+each file should include names (first and second name) generated randomly based on list of first names and second names (provided in two text files)
+each person (name) should have two random values assigned to it (age, selery)
+Write a second class, that process generated data (one parameter in constructor  - path) and methods that generate csv file with
+name of oldest person in each file and in all files
+average seleary in each file and among all files
