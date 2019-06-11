@@ -1,0 +1,29 @@
+
+Java 4
+1. Simple multithreading application
+
+build aan applicatin that run 5 threads
+each thread waits random time (0.5s..3s) and prints on screen number (incremented by thread code) and repeats it 5 times
+pass to the thread (in constructor) its name during constructimg thread class, print the name during printing each number
+2. NumericDataGenerator 
+
+ 
+
+
+a. Write a class that allows to check if a long is a prime number
+
+b. run checking prime numbers in threads:
+
+ - pass input number in constructor
+
+ - print results on screen
+
+ 
+
+ c. modify the code in a way that results are stored in output file (do not forget about synchronisation)
+
+ 
+
+ d. Modify the code in a way that csv file (with input data) is read, a given number (parameter of application)
+ of workers process all data in parallel  and stores results to one file (that inlucdes in each line:
+ number and yes or no:   1234545454 no)
