@@ -1,0 +1,47 @@
+
+Java 3
+ 
+
+1. Numbers
+
+Create a class that allows to store a list of real numbers 
+
+ Add a constructor that allows to initate n random elements of the list
+
+ Add methods that allow to calcuate:
+
+- average, min, max
+
+- that sorts the list 
+
+- median
+
+ 
+
+ 
+
+2. Serialisation
+
+Add a methd that stores the structure in a text file
+
+Add a constructor that allows to read the structre from a text file
+
+ 
+
+3. Multinumbers
+
+Create a class that allows to store a list of Numbers
+
+Add serialisation/deserialisation for such complex structure
+
+ 
+
+4*. Multinumbers++ 
+
+Add methods that allow to calculate   average, min, max of all lists
+
+Add metgod that sorts the list by    average, min, max of each list
+
+ 
+
+Do not access elements of Numbers directly.
